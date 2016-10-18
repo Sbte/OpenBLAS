@@ -20,11 +20,11 @@ ifeq ($(ARCH), arm64)
 USE_TRMM = 1
 endif
 
-ifeq ($(TARGET), LOONGSON3B)
+ifeq ($(CORE), LOONGSON3B)
 USE_TRMM = 1
 endif
 
-ifeq ($(TARGET), GENERIC)
+ifeq ($(CORE), generic)
 USE_TRMM = 1
 endif
 
